@@ -3,7 +3,8 @@
 ドラフト前の測定会（コンバイン）のトラッキングデータと、同じ選手の NFL の試合のトラッキングデータを比べ、**どの測定値が試合に移り、どれが移らないか**を地図1枚にまとめた分析です（Kaggle の分析コンペ、Open Track に提出）。
 わかったこと：**最高速は試合に移る（WR で相関 0.66）。スタートの加速は移らない。最初の 10yd は、センサーよりストップウォッチの公式タイムのほうが試合のスタートとつながる。**
 
-- Writeup（提出済み・英語）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/writeups/what-transfers-from-the-combine
+- Writeup（2026-10-19 提出済み・英語）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/writeups/what-transfers-from-the-combine
+  - ※2026-10-20 時点では、Kaggle にログインしていない状態だと開けません。内容はこの README と下の公開ノートブック2本で確認できます
 - 本体ノートブック（移る／移らない地図・信頼性・SOE・DL の見かけの関係）：https://www.kaggle.com/code/takayuki0127/what-transfers-from-the-combine-bdb-2027
 - 追加分析ノートブック（構えからのスタート・ストップウォッチ vs センサー・上乗せの効果・必要な試技数・頑健性）：https://www.kaggle.com/code/takayuki0127/bdb-2027-follow-up-analyses
 
